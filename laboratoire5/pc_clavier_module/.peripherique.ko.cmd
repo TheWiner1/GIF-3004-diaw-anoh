@@ -1,0 +1,1 @@
+cmd_/home/setr/Noyau/peripherique.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/setr/Noyau/peripherique.ko /home/setr/Noyau/peripherique.o /home/setr/Noyau/peripherique.mod.o ;  true
