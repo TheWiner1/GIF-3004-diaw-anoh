@@ -6,7 +6,7 @@
         {
             "label": "syncAndStartGDB",
             "type": "shell",
-            "command": "./syncAndStartGDB.sh ${workspaceRoot} adresse_de_votre_raspberry_pi",
+            "command": "su setr ./syncAndStartGDB.sh ${workspaceRoot} rpigif3004erwin.duckdns.org",
             "presentation": {
                 "reveal": "always",
                 "panel": "new"

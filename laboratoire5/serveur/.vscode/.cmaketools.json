@@ -1,0 +1,56 @@
+{
+  "variant": {
+    "label": "Debug",
+    "keywordSettings": {
+      "buildType": "debug"
+    },
+    "description": "Emit debug information without performing optimizations"
+  },
+  "activeEnvironments": [],
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "Debug",
+        "projects": [
+          {
+            "buildDirectory": "/home/setr/projects/GIF-3004-diaw-anoh/laboratoire5/serveur/build",
+            "hasInstallRule": false,
+            "minimumCMakeVersion": "3.0",
+            "name": "SETR_LABO5_SERVEUR",
+            "sourceDirectory": "/home/setr/projects/GIF-3004-diaw-anoh/laboratoire5/serveur",
+            "targets": [
+              {
+                "artifacts": [
+                  "/home/setr/projects/GIF-3004-diaw-anoh/laboratoire5/serveur/build/SETR_LABO5_SERVEUR"
+                ],
+                "buildDirectory": "/home/setr/projects/GIF-3004-diaw-anoh/laboratoire5/serveur/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "-Wl,-rpath-link,/home/setr/arm-cross-comp-env/arm-raspbian-linux-gnueabihf/arm-raspbian-linux-gnueabihf/sysroot/opt/vc/lib -Wl,-rpath-link,/home/setr/arm-cross-comp-env/arm-raspbian-linux-gnueabihf/arm-raspbian-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf -Wl,-rpath-link,/home/setr/arm-cross-comp-env/arm-raspbian-linux-gnueabihf/arm-raspbian-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf -Wl,-rpath-link,/home/setr/arm-cross-comp-env/arm-raspbian-linux-gnueabihf/arm-raspbian-linux-gnueabihf/sysroot/usr/local/lib -g   -Wall -Wextra -Wpedantic -Wduplicated-cond -Wlogical-op -Wnull-dereference -Wjump-misses-init -Wshadow -fno-omit-frame-pointer",
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "serveur.c"
+                    ]
+                  }
+                ],
+                "fullName": "SETR_LABO5_SERVEUR",
+                "isGeneratorProvided": false,
+                "linkFlags": "-rdynamic",
+                "linkLanguageFlags": "-Wl,-rpath-link,/home/setr/arm-cross-comp-env/arm-raspbian-linux-gnueabihf/arm-raspbian-linux-gnueabihf/sysroot/opt/vc/lib -Wl,-rpath-link,/home/setr/arm-cross-comp-env/arm-raspbian-linux-gnueabihf/arm-raspbian-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf -Wl,-rpath-link,/home/setr/arm-cross-comp-env/arm-raspbian-linux-gnueabihf/arm-raspbian-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf -Wl,-rpath-link,/home/setr/arm-cross-comp-env/arm-raspbian-linux-gnueabihf/arm-raspbian-linux-gnueabihf/sysroot/usr/local/lib -g",
+                "linkerLanguage": "C",
+                "name": "SETR_LABO5_SERVEUR",
+                "sourceDirectory": "/home/setr/projects/GIF-3004-diaw-anoh/laboratoire5/serveur",
+                "sysroot": "/home/setr/arm-cross-comp-env/arm-raspbian-linux-gnueabihf/arm-raspbian-linux-gnueabihf/sysroot",
+                "type": "EXECUTABLE"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.9554688805408806",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  }
+}

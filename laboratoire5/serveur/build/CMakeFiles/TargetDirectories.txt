@@ -1,0 +1,3 @@
+/home/setr/projects/GIF-3004-diaw-anoh/laboratoire5/serveur/build/CMakeFiles/rebuild_cache.dir
+/home/setr/projects/GIF-3004-diaw-anoh/laboratoire5/serveur/build/CMakeFiles/SETR_LABO5_SERVEUR.dir
+/home/setr/projects/GIF-3004-diaw-anoh/laboratoire5/serveur/build/CMakeFiles/edit_cache.dir

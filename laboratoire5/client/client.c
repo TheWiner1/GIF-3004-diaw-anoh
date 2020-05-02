@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
     struct hostent *server;
     char buffer[256];
     if (argc < 3) {
-       fprintf(stderr,"usage %s hostname port\n", argv[0]);
+       fprintf(stderr,"usage %s hostname port\n ", argv[0]);
        exit(0);
     }
     portno = atoi(argv[2]);
@@ -55,7 +55,7 @@ int main(int argc, char *argv[])
     // while(count < n)  {
         n = read(sockfd,buffer,256);
         if (n < 0) 
-            error("ERROR reading from socket");
+            perror("ERROR reading from socket");
         fdPath = open(argv[3], O_RDWR);
         if(fdPath < 0){
            perror("Erreur open file");
