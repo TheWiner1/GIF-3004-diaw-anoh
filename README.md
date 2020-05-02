@@ -35,5 +35,5 @@ ou sur une autre machine linux
 sudo ./client AdresseDeVotreRPI numeroPort /dev/Labo5_setr_driver
 Appuyer les touches du clavier et observer les résultats sur la console client
 
-
+ Et enfin quitter des 2 cotés.
 
