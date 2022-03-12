@@ -1,6 +1,8 @@
 # GIF-3004-diaw-anoh
 Dépôt pour le cours Systèmes Embarqués Temps Réel.
 
+Demo on Youtube/Vidéo de démonstration: https://youtu.be/rxSHZUxMgIw
+
 Tuto pour procédure de compilation
 
 - créer un dossier projects/laboratoire5 sur le rpi
